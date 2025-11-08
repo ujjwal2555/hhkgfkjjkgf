@@ -94,7 +94,6 @@ export default function LandingPage() {
       {/* Hero Visual */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 pb-20 sm:pb-32">
         <div className="relative rounded-3xl bg-gradient-to-br from-[#714b67]/10 via-[#714b67]/5 to-[#714b67]/10 dark:from-[#714b67]/20 dark:via-[#714b67]/10 dark:to-[#714b67]/20 border border-[#714b67]/20 dark:border-[#714b67]/30 p-8 sm:p-12 overflow-hidden shadow-2xl">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#714b67]/10 via-transparent to-[#714b67]/5 dark:from-[#714b67]/20 dark:to-[#714b67]/10" />
           <div className="aspect-video bg-white/70 dark:bg-gray-900/70 rounded-2xl shadow-2xl flex items-center justify-center backdrop-blur-sm relative overflow-hidden border border-gray-200/50 dark:border-gray-800/50">
             <div className="absolute inset-0 bg-gradient-to-br from-[#714b67]/5 to-[#714b67]/10 dark:from-[#714b67]/10 dark:to-[#714b67]/20" />
             <div className="text-center space-y-6 relative z-10 p-8">

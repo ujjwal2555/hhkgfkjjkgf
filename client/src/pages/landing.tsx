@@ -30,13 +30,13 @@ export default function LandingPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-purple-50/30 to-white dark:from-gray-950 dark:via-purple-950/10 dark:to-gray-950">
+    <div className="min-h-screen bg-gradient-to-b from-white via-[#714b67]/5 to-white dark:from-gray-950 dark:via-[#714b67]/10 dark:to-gray-950">
       {/* Header */}
       <header className="border-b border-gray-100 dark:border-gray-900 bg-white/80 dark:bg-gray-950/80 sticky top-0 z-50 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-3 group">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 flex items-center justify-center shadow-lg shadow-purple-500/20 transition-transform group-hover:scale-105">
+              <div className="w-11 h-11 rounded-xl bg-[#714b67] flex items-center justify-center shadow-lg shadow-[#714b67]/20 transition-transform group-hover:scale-105">
                 <Building2 className="w-6 h-6 text-white" strokeWidth={2.5} />
               </div>
               <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">
@@ -46,7 +46,7 @@ export default function LandingPage() {
             <Button
               onClick={() => setLocation("/login")}
               variant="outline"
-              className="border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300 hover:border-purple-200 dark:hover:border-purple-800 transition-all duration-300"
+              className="border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300 hover:border-[#714b67]/30 dark:hover:border-[#714b67]/40 transition-all duration-300"
               data-testid="button-login"
             >
               Sign In
@@ -57,13 +57,13 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-100/40 via-transparent to-blue-100/40 dark:from-purple-950/20 dark:via-transparent dark:to-blue-950/20 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#714b67]/10 via-transparent to-[#714b67]/5 dark:from-[#714b67]/20 dark:via-transparent dark:to-[#714b67]/10 pointer-events-none" />
         <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 sm:pt-24 pb-20 sm:pb-32 relative">
           <div className={`text-center max-w-5xl mx-auto space-y-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <h2 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight leading-tight">
               <span className="text-gray-900 dark:text-gray-100">A new HQ for all of your</span>
               <br />
-              <span className="bg-gradient-to-r from-purple-600 via-purple-500 to-purple-700 dark:from-purple-400 dark:via-purple-500 dark:to-purple-600 bg-clip-text text-transparent">
+              <span className="text-[#714b67] dark:text-[#9d6f91]">
                 employee info
               </span>
             </h2>
@@ -76,7 +76,7 @@ export default function LandingPage() {
               <Button
                 size="lg"
                 onClick={() => setLocation("/login")}
-                className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-10 text-base font-semibold shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/40 transition-all duration-300 hover:scale-105"
+                className="bg-[#714b67] hover:bg-[#5f3f56] text-white px-10 text-base font-semibold shadow-lg shadow-[#714b67]/30 hover:shadow-xl hover:shadow-[#714b67]/40 transition-all duration-300 hover:scale-105"
                 data-testid="button-get-started"
               >
                 Get started
@@ -93,14 +93,14 @@ export default function LandingPage() {
 
       {/* Hero Visual */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 pb-20 sm:pb-32">
-        <div className="relative rounded-3xl bg-gradient-to-br from-purple-100/60 via-purple-50/40 to-blue-100/60 dark:from-purple-950/40 dark:via-purple-900/20 dark:to-blue-950/40 border border-purple-200/50 dark:border-purple-900/50 p-8 sm:p-12 overflow-hidden shadow-2xl">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-purple-400/10 via-transparent to-blue-400/10 dark:from-purple-600/10 dark:to-blue-600/10" />
+        <div className="relative rounded-3xl bg-gradient-to-br from-[#714b67]/10 via-[#714b67]/5 to-[#714b67]/10 dark:from-[#714b67]/20 dark:via-[#714b67]/10 dark:to-[#714b67]/20 border border-[#714b67]/20 dark:border-[#714b67]/30 p-8 sm:p-12 overflow-hidden shadow-2xl">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#714b67]/10 via-transparent to-[#714b67]/5 dark:from-[#714b67]/20 dark:to-[#714b67]/10" />
           <div className="aspect-video bg-white/70 dark:bg-gray-900/70 rounded-2xl shadow-2xl flex items-center justify-center backdrop-blur-sm relative overflow-hidden border border-gray-200/50 dark:border-gray-800/50">
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-blue-500/5 dark:from-purple-500/10 dark:to-blue-500/10" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#714b67]/5 to-[#714b67]/10 dark:from-[#714b67]/10 dark:to-[#714b67]/20" />
             <div className="text-center space-y-6 relative z-10 p-8">
               <div className="relative inline-block">
-                <div className="absolute inset-0 bg-purple-500/20 dark:bg-purple-500/30 blur-3xl rounded-full animate-pulse" />
-                <Users className="w-24 h-24 text-purple-600/40 dark:text-purple-500/40 relative" strokeWidth={1.5} />
+                <div className="absolute inset-0 bg-[#714b67]/20 dark:bg-[#714b67]/30 blur-3xl rounded-full animate-pulse" />
+                <Users className="w-24 h-24 text-[#714b67]/40 dark:text-[#714b67]/40 relative" strokeWidth={1.5} />
               </div>
               <p className="text-lg font-medium text-gray-500 dark:text-gray-400">Employee Management Dashboard</p>
             </div>

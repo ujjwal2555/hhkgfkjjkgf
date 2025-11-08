@@ -291,7 +291,6 @@ export default function Attendance() {
                   borderRadius: '0.5rem',
                   padding: '8px 12px'
                 }}
-                formatter={(value, name, props) => [props.payload.status, 'Status']}
               />
               <Bar dataKey="present" fill="#714b67" radius={[8, 8, 0, 0]}>
                 {last7DaysData.map((entry, index) => (

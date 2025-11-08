@@ -1,0 +1,78 @@
+Redesign our website by taking strong inspiration from https://www.odoo.com/app/employees
+ and https://www.odoo.com/app/sales
+.
+The new website should look professionally designed by humans, not AI-generated — authentic, polished, and brand-specific, with personality and attention to detail.
+
+🎨 Design Style & Aesthetic
+
+Adopt a modern, minimalistic, and professional look, similar to Odoo’s clean interface.
+
+Use soft pastel gradients, neutral backgrounds, and rounded cards or sections to create depth without clutter.
+
+Avoid repetitive AI-styled patterns, overly symmetrical layouts, or generic stock visuals.
+
+Every section should feel purposeful and handcrafted, with proper alignment, spacing, and flow.
+
+Include human design touches — asymmetrical grids, slightly offset illustrations, layered visuals, and varied typography weights.
+
+The design should feel alive and intuitive, not algorithmic or overly polished.
+
+🖋 Typography
+
+Use modern sans-serif fonts like Inter, Poppins, or Nunito Sans — clean, legible, and balanced.
+
+Headings should be bold, confident, and elegant, using slightly larger line heights to give breathing space.
+
+Body text should be medium-weight, 16–18px for readability, with smooth color contrast (not pitch black).
+
+Use font pairings (e.g., Poppins for headers + Inter for body) to create visual rhythm.
+
+All text should have consistent margins, spacing, and subtle animations on scroll (e.g., fade-in).
+
+🎨 Color Palette
+
+Primary Colors: Soft lavender or violet hues (inspired by Odoo).
+
+Secondary Colors: Muted gray tones, off-white, and gentle blues.
+
+Accent Colors: Gradient blends (like purple-to-blue or orange-to-pink) for buttons and highlights.
+
+Keep color usage minimal — rely on whitespace and contrast instead of heavy saturation.
+
+Ensure every color combination is accessible and pleasant on the eyes.
+
+📐 Layout & Structure
+
+Hero Section: Large, clean headline, supporting subtext, elegant call-to-action button, and an original illustration or product image.
+
+Feature Sections: Use soft shadowed cards with icons and brief, clear descriptions.
+
+Visual Demo or Screenshot Area: Layered interface mockups with depth and subtle motion effects.
+
+Testimonials/Team Section: Realistic profile photos with natural layouts (avoid generic AI avatars).
+
+Call-to-Action (CTA): Prominent and friendly, with hover animations and gradient button backgrounds.
+
+Footer: Structured and balanced, with muted background color and neat link arrangement.
+
+🎬 Visual & Motion Design
+
+Add smooth scrolling animations, hover highlights, and fade-in transitions — not too flashy, just enough to feel dynamic.
+
+Use vector illustrations or custom graphics with a cohesive color style (avoid generic stock or AI-drawn art).
+
+Maintain consistent iconography and spacing between visual elements.
+
+Microinteractions (like button ripples or icon movements) should feel natural and manually crafted.
+
+⚙️ UX & Technical Details
+
+Fully responsive for all devices (desktop, tablet, and mobile).
+
+Optimized for speed and accessibility.
+
+Use handcrafted layout variations between sections to avoid the "AI template" look.
+
+Integrate authentic visuals or human-centered photography where possible.
+
+Maintain clean code structure for easy updates and SEO optimization.
